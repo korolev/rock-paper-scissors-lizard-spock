@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "color-function-notation": ["modern", { "ignore": ["with-var-inside"] }],
+    "selector-class-pattern": null
+  }
+}
