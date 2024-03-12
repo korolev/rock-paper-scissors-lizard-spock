@@ -1,0 +1,34 @@
+.board{ 
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  min-height: 10rem;
+  position: relative;
+}
+
+.boardStyled{
+  border:1px solid rgb(var(--foreground-rgb));
+  padding: 2rem 0;
+}
+
+.boardOverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(var(--foreground-rgb), 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(var(--background-start-rgb));
+  z-index: 1;
+}
+
+.boardOverlay::before{
+  content: "Loading...";
+}

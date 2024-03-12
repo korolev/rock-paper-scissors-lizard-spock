@@ -6,7 +6,15 @@
     "stylelint-order"
   ],
   "rules": {
-    "color-function-notation": ["modern", { "ignore": ["with-var-inside"] }],
-    "selector-class-pattern": null
+    "color-function-notation": [
+      "modern",
+      {
+        "ignore": [
+          "with-var-inside"
+        ]
+      }
+    ],
+    "selector-class-pattern": "^[a-zA-Z]+$",
+    "order/properties-alphabetical-order": true
   }
 }

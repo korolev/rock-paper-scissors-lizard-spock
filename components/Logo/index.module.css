@@ -1,0 +1,12 @@
+.logo{
+  border:2px solid rgb(var(--foreground-rgb));
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  user-select: none;
+  width: 150px; 
+}

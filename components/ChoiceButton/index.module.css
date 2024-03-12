@@ -1,0 +1,53 @@
+.gameButton{
+  border: 0.25rem solid rgb(var(--foreground-rgb));
+  border-radius: 50%;
+  height: 6rem;
+  padding: 1rem;
+  width: 6rem;
+  font-size: 2rem;
+  transition: ease-out 0.2s;
+}
+
+.cursorPointer{
+  cursor: pointer;
+}
+
+.gameButton.cursorPointer:hover{
+  transform: scale(1.1);  
+}
+
+.isActive{  
+  animation: pulsing 1s linear infinite;
+}
+
+.gameButtonrock{
+  background: var(--rock-gradient);
+}
+
+.gameButtonpaper{
+  background: var(--paper-gradient);
+}
+
+.gameButtonscissors{
+  background: var(--scissors-gradient);
+}
+
+.gameButtonlizard{
+  background: var(--lizard-gradient);
+}
+
+.gameButtonspock{
+  background: var(--spock-gradient);
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
